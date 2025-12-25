@@ -11,7 +11,9 @@ disableToc: true
 
 ---
 
-**本网站最后更新于2025年6月9日，域名于2025年5月下旬更换。**
+**本网站最后更新于2025年12月25日，域名于2025年5月下旬更换。**
+
+**本网站状态可在[秋冥网站状态](https://status.genouka.top/)查询得到哦。**
 
 **我们的域名已经过渡到rare.genouka.top，请注意！其他域名同理把对应后缀换为top。**
 
@@ -34,43 +36,34 @@ disableToc: true
 欢迎加入[官方QQ交流群](/lianxi)!
 
 
-## 本系列软件
-图标含义说明
+## Rare计划系列软件（官方）
 
-<i class="mdui-icon material-icons">watch</i>兼容WearOS手表/华为手表
-
-<i class="mdui-icon material-icons">android</i>兼容Android/类Android手表
-
-<i class="mdui-icon material-icons">phone_android</i>兼容Android/类Android/鸿蒙手机
-
-<i class="mdui-icon material-icons">desktop_windows</i>兼容Windows系统
-
-<i class="mdui-icon material-icons">warning</i>操作具有一定的危险性
-
-
-* [RareBox详情页](/rarebox) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i><i class="mdui-icon material-icons">warning</i>
+* [RareBox(手机版/手表版)详情页](/rarebox/) [RareBox(电脑版)详情页](/rareboxdesktop/) 
   > 一个专为手表打造的工具箱，支持安装应用、修改dpi。配合Rare浏览器和Rare商店食用更佳！
 
-* [Rare浏览器详情页](/rarebrowser) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+* [Rare浏览器详情页](/rarebrowser/)
   > 手表上好用的强大的浏览器，使用新版chromium核心构建，极致优化性能。
 
 * ~~Rare播放器~~
-  > 力争打造手表上最棒的视频播放器
+  > 力争打造手表上最棒的视频播放器（由于凉腕很好用，推荐用凉腕！）
 
-* [合作项目：莘应用（原Rare商店）详情页](https://edsc.edsq.top/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+* [合作项目：莘应用（原Rare商店）详情页](https://edsc.edsq.top/) （手表/手机）
   > 手表上下载应用的新兴应用商店，支持WearOS安装。<span style="color:green">全新升级！</span>
+
 
 ## 非本系列软件
 
-以下应用不属于Rare计划，但是是GenOuka推荐的应用！
+以下应用不属于Rare计划，但是是秋冥散雨(GenOuka)推荐的应用！
 
-* [质感文件(Wear)](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
- > 本软件由zhanghai开发。本软件不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器
+以下除本人修改过的，均提供官方下载链接，防止您被骗！
 
-* [凉腕播放器](http://aliangmaker.top/com.media/aliang-media.apk)
+* [质感文件(Wear)](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk) （手表/手机）
+ > 本软件由zhanghai开发，genouka于清单文件添加一行标签以便上架小问商店。本软件不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器
+
+* [凉腕播放器](http://aliangmaker.top/com.media/aliang-media.apk) （手表）
  > 本软件由凉生初霜开发。不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的免费视频播放器。
 
-## 归档
+## Rare计划官方归档应用
 
 **警告：本分类应用均已归档，可能是因为其中某个或某些功能无法正常使用/异常而放弃维护。如果您坚持使用归档应用，产生的所有后果自负。**
 
@@ -79,6 +72,9 @@ disableToc: true
 
 * [Rare翻译详情页](/rarefanyi/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上简单快速的翻译软件。现已废弃，仅供存档。
+
+* [Rare商店详情页](/rarestore/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+  > 手表上下载应用的应用商店，支持WearOS安装。
 
 ## 捐助
 **请勿将购买RarePro浏览器视作捐赠行为。**
