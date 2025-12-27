@@ -3,6 +3,6 @@
     "format":".lzma",
     "main":"rarebox.exe",
     "updater":"rarebox.exe",
-    "url":"http://rare.genouka.rr.nu/",
+    "url":"http://rare.genouka.top/",
     "version":"0.3.0.22"
 }
