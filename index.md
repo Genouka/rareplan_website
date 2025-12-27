@@ -11,17 +11,15 @@ disableToc: true
 
 ---
 
-**本网站最后更新于2025年12月25日，域名于2025年5月下旬更换。**
+**本网站最后更新于2025年12月27日，域名于2025年5月下旬更换。**
 
-**本网站状态可在[秋冥网站状态](https://status.genouka.top/)查询得到哦。**
-
-**我们的域名已经过渡到rare.genouka.top，请注意！其他域名同理把对应后缀换为top。**
+**由于服务商Sitelutions的二级域名rr.nu被吊销，我们不得不将域名切换rare.genouka.top，请注意！其他域名同理把对应后缀换为top。现在使用EdgeOne作为CDN进行加速**
 
 **特别注意：为提高访问速度，本网站使用了特别缓存技术，如果要查看最新的页面至少刷新两次！**
 
 **☀️ 打造手表系列，共建手表生态！☀️**
 
-使WearOS、Android手表也有更好的使用体验！现正在全力适配WearOS3/4和一些儿童手表。
+使WearOS、Android手表也有更好的使用体验！
 
 ## 介绍
 
@@ -29,9 +27,7 @@ disableToc: true
 
 我是一名学生，**没有很多精力**维护各种软件，如果您觉得软件好用，~~可以考虑捐助开发者（捐助方式我删了）~~，但我会致力于开发各种实用的软件和工具。
 
-欢迎访问我的[Bilibili](/lianxi)!
-
-欢迎加入[官方QQ频道"智能手表"](/lianxi)（原名Rare计划）!
+欢迎访问我的[哔哩哔哩](/lianxi)!
 
 欢迎加入[官方QQ交流群](/lianxi)!
 
@@ -45,10 +41,10 @@ disableToc: true
   > 手表上好用的强大的浏览器，使用新版chromium核心构建，极致优化性能。
 
 * ~~Rare播放器~~
-  > 力争打造手表上最棒的视频播放器（由于凉腕很好用，推荐用凉腕！）
+  > 力争打造手表上最棒的视频播放器（由于凉腕很好用，Rare播放器停止开发。推荐用凉腕！）
 
 * [合作项目：莘应用（原Rare商店）详情页](https://edsc.edsq.top/) （手表/手机）
-  > 手表上下载应用的新兴应用商店，支持WearOS安装。<span style="color:green">全新升级！</span>
+  > 手表上下载应用的新兴应用商店，支持WearOS系统安装。<span style="color:green">全新升级！</span>
 
 
 ## 非本系列软件
@@ -73,10 +69,10 @@ disableToc: true
 * [Rare翻译详情页](/rarefanyi/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上简单快速的翻译软件。现已废弃，仅供存档。
 
-* [Rare商店详情页](/rarestore/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+* [Rare商店详情页](/rareshop/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上下载应用的应用商店，支持WearOS安装。
 
 ## 捐助
 **请勿将购买RarePro浏览器视作捐赠行为。**
 
-**最后，我不会给网站任何页面加广告（如有，就是浏览器和/或运营商劫持，与我无关），对广告深恶痛绝的感受我也不是没有体验过。**
+**最后，我不会给网站任何页面加广告（如有，就是浏览器和/或运营商劫持，与我无关）**
