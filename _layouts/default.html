@@ -75,12 +75,23 @@
             .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
     }
 </script>
-<script type="text/javascript">
 {% if page.disableToc == nil %}
+<script type="text/javascript">
 $(document).ready(function() {
     $('#toc').toc();
 });
+</script>
 {% endif %}
+<script type="text/javascript">
+  (() => {
+    const name = 'outbound-link-click';
+    document.querySelectorAll('a').forEach(a => {
+      if (a.host !== window.location.host && !a.getAttribute('data-umami-event')) {
+        a.setAttribute('data-umami-event', name);
+        a.setAttribute('data-umami-event-url', a.href);
+      }
+    });
+  })();
 </script>
   </body>
 
