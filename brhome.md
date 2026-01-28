@@ -19,6 +19,6 @@ permalink: /brhome.html
 var a=(function(p){ var query = window.location.search.substring(1);var vars = query.split("&");for (var i=0;i<vars.length;i++) {var pair = vars[i].split("=");if(pair[0] == p){return pair[1];}}return(false);
 })('vc');
 if(a==""||a<=3){
-  alert('！【24-05-12/25-06-09】\nRare浏览器已官方支持华为儿童手表，加入qq群获取详细信息！\nRarePro浏览器已重新上架小问商店，你也可以联系开发者获取应用（QQ2980077544，仅周六在线，非必要勿加，广告勿扰），\n目前浏览器最新版本为3.5.3版本，增加超级多的功能，请及时更新至最新版本！最新版本默认你已阅读过本提示，不再弹出本窗口。')
+  alert('！【26-01-28】\n购买RarePro浏览器请访问https://verity.genouka.top/info/。')
 }
 </script>

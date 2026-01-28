@@ -21,18 +21,26 @@
         </div>
         
 <div class="mdui-panel-item-body">
-        <h5>详情</h5>
+        <h5>详情:</h5>
         <pre>{{ ver.content | markdownify }}</pre>
         <b>本版本发布于：{{ ver.date }}</b>
         {% if ver.download == nil %}
           <p>无下载链接。</p>
         {% else %}
-          {% for verd in ver.download %}
           <p>注意：下载后即意味着你已阅读，完全理解并同意本页面政策（如果有）、免责声明（如果有）和隐私条款。</p>
           <div class="mdui-list">
-                <a class="mdui-list-item mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表上方复选框同意相关内容。');window.location.hash='agreement1';return false;" href="{{ verd.url }}"><i class="mdui-icon material-icons">file_download</i>{{ verd.name }}</a>
+            {% for verd in ver.download %}
+                  <a class="mdui-list-item mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表上方复选框同意相关内容。');window.location.hash='agreement1';return false;" href="{{ verd.url }}"><i class="mdui-icon material-icons">file_download</i>{{ verd.name }}</a>
+            {% endfor %}
           </div>
+        {% endif %}
+        {% if ver.links == nil %}
+        {% else %}
+          <div class="mdui-list">
+          {% for verd in ver.links %}
+                <a class="mdui-list-item mdui-ripple" href="{{ verd.url }}">{{ verd.name }}</a>
           {% endfor %}
+          </div>
         {% endif %}
 </div>
 
