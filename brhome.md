@@ -1,8 +1,8 @@
 ---
-description: 浏览器
+description: Rare浏览器导航页
 permalink: /brhome.html
 ---
-# 浏览器导航页
+# Rare浏览器导航页
 
 感谢您使用Rare浏览器或RarePro浏览器，这是默认首页。对于使用有任何问题，请查看进入软件时界面下方的【帮助】。如有bug请确保你使用的是最新版本，然后反馈给作者：[联系方式](/lianxi/)。
 

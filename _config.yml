@@ -1,5 +1,5 @@
 title      : Rare计划官网
-lang       : zh
+lang       : zh-CN
 description: 我们打造最棒的手表应用
 copyright  : <a href="https://icp.gov.moe/?keyword=20232880" target="_blank">萌ICP备20232880号</a> © 2023 - 2026 秋冥散雨_GenOuka All Rights Reserved
 extra      : 本网站属于非盈利性质网站，不进行任何商业经营活动。
@@ -13,11 +13,9 @@ nav:
    link: /law/
 
 links:
- - name: 莘应用手表应用商店
-   link: https://edsc.edsq.top/
- - name: Yuanwow的博客
-   link: https://2980077544.github.io/
- - name: 莉莉云(东方狗下载站)
-   link: https://cloud.lilywhite.cc/
+ - name: 秋冥散雨_GenOuka的项目索引站
+   link: https://genouka.top/
+ - name: 中国独立开发者项目列表
+   link: https://github.com/1c7/chinese-independent-developer
  - name: 申请友链请联系我(请先添加本站为友链)
    link: /lianxi/

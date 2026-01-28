@@ -1,10 +1,10 @@
 ---
-description: RareBox
+description: RareBox电脑版
 permalink: /rareboxdesktop/
 ---
-# RareBox
+# RareBoxDesktop
 
-<h1><a href="/rarebox/">手机端/手表端请点这里查看</a></h1>
+你当前查看的是适用于电脑的应用。如果你需要手机端/手表端版本请点击<a href="/rarebox/">这里</a>
 
 ## 系统要求
 * 最低兼容到Windows XP系统(推荐使用Windows 10及以上版本系统)

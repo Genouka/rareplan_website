@@ -12,8 +12,11 @@ permalink: /lianxi/
   * 智能手表（原名：Rare计划）
     * 链接：[点击加入](https://pd.qq.com/s/6btddnc8n)
     * 频道号：rareplan23
+  * 秋冥散雨
+    * 链接：[点击加入](https://pd.qq.com/s/9g7a3d769)
+    * 频道号：rareplan23
 * 哔哩哔哩
-  * GenOuka
+  * 秋冥散雨_GenOuka
     * UID：3493116076100126
     * [我的主页](https://space.bilibili.com/3493116076100126)
     * 三连的人会有好运哦！

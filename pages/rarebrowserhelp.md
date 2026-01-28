@@ -10,7 +10,7 @@ permalink: /rarebrowser/help/
 
 如果关闭本对话框，您稍后可以在首页的帮助按钮处重新查看本段文字。
 
-本文档的在线版本可以在https://rare.genouka.rr.nu/上查看到。
+本文档的在线版本可以在https://rare.genouka.top/上查看到。
 
 《简介》
 感谢您使用RarePro浏览器，本浏览器是为数不多支持WearOS且功能健全的浏览器。

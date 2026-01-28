@@ -13,9 +13,9 @@
     
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script defer src="https://status.genouka.top/script.js" data-website-id="1e3288df-cf3d-4877-a842-45c37fc7e7ef"></script>
-<script src="/assets/js/toc.js" type="text/javascript"></script>
+    <script src="/assets/js/toc.js" type="text/javascript"></script>
   </head>
   <body class="mdui-theme-primary-teal mdui-theme-accent-blue">
     <div class="wrapper">
@@ -67,14 +67,6 @@
     
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
-<script type="text/javascript">
-    if(navigator.serviceWorker){
-        navigator.serviceWorker
-            .register('/sw.js')
-            .then((registration) => {console.log('Service Worker Registered. ', registration)})
-            .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
-    }
-</script>
 {% if page.disableToc == nil %}
 <script type="text/javascript">
 $(document).ready(function() {

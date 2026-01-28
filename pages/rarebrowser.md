@@ -14,7 +14,7 @@ Rare浏览器是专为穿戴设备设计的浏览器软件。
 * 几乎所有WearOS或Android手表
 
 ## 目前的官方发布渠道
-* **本官方网站：rare.genouka.rr.nu**
+* **本官方网站：rare.genouka.top**
 * 官方QQ群 （请看联系方式）
 * 官方QQ频道（请看联系方式）
 * Bilibili: Genouka

@@ -1,7 +1,10 @@
 ---
 permalink: /
 disableToc: true
+description: 手表基础设施建设先行者
 ---
+
+# Rare计划官网
 
 ---
 

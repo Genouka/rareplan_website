@@ -1,14 +1,13 @@
 ---
-description: RareBox
+description: RareBox手机版/手表版
 permalink: /rarebox/
 ---
 # RareBox
 
-<h1><a href="/rareboxdesktop/">电脑版本重磅来袭！点击查看</a></h1>
+你当前查看的是适用于手机和手表的应用。如果你需要电脑版本请点击<a href="/rareboxdesktop/">这里</a>
 
 **你没有走错！这就是RareBox新版官方页面**
 
-[不想听作者啰嗦，我要看下载链接/使用教程](#目前的下载和安装渠道)
 RareBox是适用于很多穿戴设备调试的通用调试工具箱软件。
 
 ## 目前支持并适配的设备

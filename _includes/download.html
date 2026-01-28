@@ -1,15 +1,16 @@
 {% if include.name %}
-
+{% if page_agreement_checkbox == nil %}
+{% assign page_agreement_checkbox = true %}
+  <label class="mdui-checkbox">
+    <input id="agreement1" type="checkbox" onchange="localStorage.setItem('myCat', 'Tom');"/>
+    <i class="mdui-checkbox-icon"></i>
+    我已阅读，完全理解并同意该应用的用户协议、隐私政策、免责声明以及该网站的<a href="/eula/">最终用户许可协议</a>和<a href="/privacy/">隐私条款</a>
+  </label>
+{% endif %}
 {% for appk in site.data.apps %}
 {% assign app = appk[1] %}
 {% if include.name == app.name %}
 
-<a href="https://www.123pan.com/s/WxHjVv-1bU0A.html"><b>如果下列文件无法下载请点击这里使用123网盘(备份源)下载</b></a><br>
-  <label class="mdui-checkbox">
-    <input id="agreement1" type="checkbox"/>
-    <i class="mdui-checkbox-icon"></i>
-    我已阅读，完全理解并同意本页面政策（如果有）、免责声明（如果有）、<a href="/eula/">EULA</a>和<a href="/privacy/">隐私条款</a>
-  </label>
   <div class="mdui-panel" mdui-panel>
     {% for ver in app.list %}
   <div class="mdui-panel-item">
@@ -23,12 +24,16 @@
         <h5>详情</h5>
         <pre>{{ ver.content | markdownify }}</pre>
         <b>本版本发布于：{{ ver.date }}</b>
-        <p>注意：下载后即意味着你已阅读，完全理解并同意本页面政策（如果有）、免责声明（如果有）和隐私条款。</p>
-        <div class="mdui-list">
+        {% if ver.download == nil %}
+          <p>无下载链接。</p>
+        {% else %}
           {% for verd in ver.download %}
-              <a class="mdui-list-item mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表上方复选框同意相关内容。');return false;" href="{{ verd.url }}"><i class="mdui-icon material-icons">file_download</i>{{ verd.name }}</a>
+          <p>注意：下载后即意味着你已阅读，完全理解并同意本页面政策（如果有）、免责声明（如果有）和隐私条款。</p>
+          <div class="mdui-list">
+                <a class="mdui-list-item mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表上方复选框同意相关内容。');window.location.hash='agreement1';return false;" href="{{ verd.url }}"><i class="mdui-icon material-icons">file_download</i>{{ verd.name }}</a>
+          </div>
           {% endfor %}
-        </div>
+        {% endif %}
 </div>
 
   </div>

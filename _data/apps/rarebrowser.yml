@@ -1,5 +1,11 @@
 name: rarebrowser
 list:
+  - ver: 后续版本
+    content: |
+       后续版本将不再提供免费下载
+    download:
+       - name: 购买链接
+         url: https://verity.genouka.top/info/
   - ver: 2.9.1.2
     content: |
        修复大批bug
@@ -65,10 +71,7 @@ list:
     content: |
        添加收藏功能，自本版本起最低Android5.1
     date: 2023-08-18
-    download:
-       - name: 官方源
-         url: http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rarebrowser_13_wear_armeabi-v7a_4b9f86e8063ef91578a9ba8af2aec48e.apk
-         md5: 4b9f86e8063ef91578a9ba8af2aec48e
+    download: []
   - ver: 1.2
     content: |
        经典版，最低Android4.4

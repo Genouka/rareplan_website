@@ -2,7 +2,7 @@ name: rarestore
 list:
   - ver: 1.2
     content: |
-       最新版本（后端服务器暂停续费，计划以后恢复）
+       最新版本
     date: 2023-12-31
     download:
        - name: 官方源
