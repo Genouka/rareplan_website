@@ -7,7 +7,7 @@ extra      : 本网站属于非盈利性质网站，不进行任何商业经营�
 nav:
  - name: 首页
    link: /
--  name: 开发者
+ - name: 开发文档
    link: https://github.com/Genouka/rareplan_docs
  - name: 联系方式
    link: /lianxi/
