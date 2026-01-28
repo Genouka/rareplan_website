@@ -30,7 +30,7 @@
           <p>注意：下载后即意味着你已阅读，完全理解并同意本页面政策（如果有）、免责声明（如果有）和隐私条款。</p>
           <div class="mdui-list">
             {% for verd in ver.download %}
-                  <a class="mdui-list-item mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表上方复选框同意相关内容。');window.location.hash='agreement1';return false;" href="{{ verd.url }}"><i class="mdui-icon material-icons">file_download</i>{{ verd.name }}</a>
+                  <a class="mdui-list-item mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表上方复选框同意相关内容。');$('html, body').animate({scrollTop: $('#agreement1').offset().top}, 800);return false;" href="{{ verd.url }}"><i class="mdui-icon material-icons">file_download</i>{{ verd.name }}</a>
             {% endfor %}
           </div>
         {% endif %}
