@@ -3,7 +3,7 @@ list:
   - ver: 后续版本
     content: |
        后续版本将不再提供免费下载
-    link:
+    links:
        - name: 购买链接
          url: https://verity.genouka.top/info/
   - ver: 2.9.1.2
