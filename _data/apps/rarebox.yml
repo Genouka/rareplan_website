@@ -1,5 +1,26 @@
 name: rarebox
 list:
+  - ver: 3.5
+    content: |
+        - 新增远程屏幕控制功能
+        - 新增属性操作功能（getprop/setprop）
+        - 新增屏幕形状设置（圆屏/方屏/自动）
+        - 新增跨设备密钥交换功能
+        - 新增Shizuku、Dhizuku、Root、Zygote漏洞等多种命令后端
+        - 新增扫描局域网设备功能
+        - 新增免配对连接功能
+        - 新增文件管理功能
+        - 新增应用管理功能
+        - 新增密钥管理功能
+        - 新增设备信息查看功能
+        - 新增系统设置快捷入口
+        - 新增OTG连接模式
+        - 圆屏改方显示
+        - 界面全面优化
+        - 修复已知问题
+    download:
+       - name: 官方源
+         url: https://example.com/RareBox3.5.apk
   - ver: 3.3
     content: |
         - 支持华为手表安装

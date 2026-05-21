@@ -16,17 +16,27 @@
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script defer src="https://status.genouka.top/script.js" data-website-id="1e3288df-cf3d-4877-a842-45c37fc7e7ef"></script>
     <script src="/assets/js/toc.js" type="text/javascript"></script>
+    <script>
+      (function(){
+        try{
+          var t=localStorage.getItem('theme');
+          if(t==='dark'){document.documentElement.setAttribute('data-theme','dark')}
+          else if(t==='light'){document.documentElement.setAttribute('data-theme','light')}
+          else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches){document.documentElement.setAttribute('data-theme','dark')}
+        }catch(e){}
+      })();
+    </script>
   </head>
   <body class="mdui-theme-primary-teal mdui-theme-accent-blue">
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
         <h1>{{ site.title | default: site.github.repository_name }}</h1> 
         <p>{{ page.description | default: site.description }}</p>
-       
+        <button class="theme-toggle" id="theme-toggle" aria-label="切换深色模式" title="切换深色模式">☀️</button>
         <ul>
         {% for item in site.nav %}
           {% if page.url == item.link %}
-            <li style="background-color:#069">
+            <li style="background-color:var(--bg-active-nav, #069)">
               <a href="{{ item.link }}">
                 <strong>{{ item.name }}</strong>
               </a>
@@ -74,11 +84,12 @@ $(document).ready(function() {
 });
 </script>
 {% endif %}
+<script src="/assets/js/dark-mode.js"></script>
 <script type="text/javascript">
   (() => {
     const name = 'outbound-link-click';
     document.querySelectorAll('a').forEach(a => {
-      if (a.host !== window.location.host && !a.getAttribute('data-umami-event')) {
+      if (a.host !== window.location.host && !a.getAttribute('data-umami-event') && !a.classList.contains('download-require-agreement')) {
         a.setAttribute('data-umami-event', name);
         a.setAttribute('data-umami-event-url', a.href);
       }

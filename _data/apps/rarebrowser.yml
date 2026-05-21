@@ -1,5 +1,35 @@
 name: rarebrowser
 list:
+  - ver: 5.0 (Pro版)
+    content: |
+       - 实现多标签页功能
+       - Gecko内核支持油猴脚本(Violentmonkey)
+       - 支持菜单设置默认值和网站独立设置
+       - 新的圆屏外衬功能
+       - 付费版本支持从免费版本导入收藏、历史等数据
+       - 添加小白条菜单实验性功能
+       - Gecko内核支持Alert、Confirm等几十个网页弹窗功能
+       - Gecko内核文件上传功能
+       - 修复大量已知问题
+       
+       5.x系列为当前开发版本，可能存在不稳定现象。
+    links:
+       - name: 购买链接
+         url: https://verity.genouka.top/info/
+  - ver: 4.7.4 (Pro版)
+    content: |
+       - 4.7.3版本中存在的无法验证相关的关键错误修复
+       - 4.x系列最后修复版本
+    links:
+       - name: 购买链接
+         url: https://verity.genouka.top/info/
+  - ver: 3.5.4
+    content: |
+       - 已知错误修复
+       - 历史记录长按崩溃的问题
+       - 部分情形无法正常使用x5内核
+       - 3.x系列最后稳定版本
+    date: 2025-05-22
   - ver: 后续版本
     content: |
        后续版本将不再提供免费下载
