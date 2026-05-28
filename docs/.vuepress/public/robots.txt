@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://rare.genouka.top/feed.xml
