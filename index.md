@@ -50,7 +50,7 @@ description: 手表基础设施建设先行者
 * [质感文件(Wear)](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk) （手表/手机）
  > 本软件由zhanghai开发，genouka于清单文件添加一行标签以便上架小问商店。本软件不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器
 
-* [凉腕播放器](http://aliangmaker.top/com.media/aliang-media.apk) （手表）
+* [凉腕播放器（凉腕官方已不再积极维护，可能无法访问）](http://aliangmaker.top/com.media/aliang-media.apk) （手表）
  > 本软件由凉生初霜开发。不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的免费视频播放器。
 
 ## Rare计划官方归档应用
