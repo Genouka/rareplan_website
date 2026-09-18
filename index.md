@@ -50,7 +50,7 @@ description: 手表基础设施建设先行者
 * [质感文件(Wear)](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk) （手表/手机）
  > 本软件由zhanghai开发，genouka于清单文件添加一行标签以便上架小问商店。本软件不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器
 
-* [凉腕播放器（凉腕官方已不再积极维护，可能无法访问）](http://aliangmaker.top/com.media/aliang-media.apk) （手表）
+* [凉腕播放器（凉腕官方已不再积极维护，可能无法访问）](https://github.com/Lscyzq/com.aliangmaker.media/releases) （手表）
  > 本软件由凉生初霜开发。不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的免费视频播放器。
 
 ## Rare计划官方归档应用
@@ -64,9 +64,8 @@ description: 手表基础设施建设先行者
   > 手表上简单快速的翻译软件。现已废弃，仅供存档。
 
 * [Rare商店详情页](/rareshop/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
-  > 手表上下载应用的应用商店，支持WearOS安装。
+  > 手表上下载应用的应用商店，支持WearOS安装。仍可使用，服务器未关停。
 
 ## 捐助
-**请勿将购买RarePro浏览器视作捐赠行为。**
 
-**最后，我不会给网站任何页面加广告（如有，就是浏览器和/或运营商劫持，与我无关）**
+**我不会给网站任何页面加广告（如有，就是浏览器和/或运营商劫持，与我无关）**
