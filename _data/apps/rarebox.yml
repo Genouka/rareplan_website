@@ -1,5 +1,14 @@
 name: rarebox
 list:
+  - ver: 4.0.0
+    content: |
+        更新海量内容
+    date: 2026-10-18
+    download:
+      - name: 官方源
+        url: https://github.com/Genouka/RareBox/releases/download/4.0.0/RareBox.4.0.0.APK
+      - name: 微思应用商店
+        url: https://apk.wysteam.cn/app/?id=2768
   - ver: 3.5
     content: |
         - 新增远程屏幕控制功能
@@ -18,9 +27,7 @@ list:
         - 圆屏改方显示
         - 界面全面优化
         - 修复已知问题
-    download:
-       - name: 官方源
-         url: https://example.com/RareBox3.5.apk
+    download: []
   - ver: 3.3
     content: |
         - 支持华为手表安装

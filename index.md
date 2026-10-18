@@ -3,7 +3,6 @@ permalink: /
 disableToc: true
 description: 手表基础设施建设先行者
 ---
-
 # Rare计划官网
 
 ---
@@ -16,7 +15,7 @@ description: 手表基础设施建设先行者
 
 ---
 
-**本网站最后更新于2026年5月22日。**
+**本网站最后更新于2026年10月18日。**
 
 **☀️ 打造手表系列，共建手表生态！☀️**
 
@@ -28,18 +27,22 @@ description: 手表基础设施建设先行者
 
 ## Rare计划系列软件（官方）
 
-* [RareBox(手机版/手表版)详情页](/rarebox/) [RareBox(电脑版)详情页](/rareboxdesktop/) 
+* [RareBox(手机版/手表版)详情页](/rarebox/) [RareBox(电脑版)详情页](/rareboxdesktop/)
+
   > 免费开源的ADB工具箱，支持安装应用、文件管理、应用管理、远程屏幕控制等多种功能，集成Shizuku/Dhizuku/Root等多种命令后端。
-
+  >
 * [Rare浏览器详情页](/rarebrowser/)
+
   > 手表上功能全面的浏览器，支持6种渲染内核切换、多标签页浏览、油猴脚本、广告拦截等。
-
+  >
 * ~~Rare播放器~~
+
   > 力争打造手表上最棒的视频播放器（由于凉腕很好用，Rare播放器停止开发。推荐用凉腕！）
-
+  >
 * [合作项目：莘应用（原Rare商店）详情页](https://xin.genouka.top/) （手表/手机）
-  > 手表上下载应用的新兴应用商店，支持WearOS系统安装。<span class="text-success">全新升级！</span>
 
+  > 手表上下载应用的新兴应用商店，支持WearOS系统安装。<span class="text-success">全新升级！</span>
+  >
 
 ## 非本系列软件
 
@@ -48,23 +51,29 @@ description: 手表基础设施建设先行者
 以下除本人修改过的，均提供官方下载链接，防止您被骗！
 
 * [质感文件(Wear)](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk) （手表/手机）
- > 本软件由zhanghai开发，genouka于清单文件添加一行标签以便上架小问商店。本软件不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器
+
+> 本软件由zhanghai开发，genouka于清单文件添加一行标签以便上架小问商店。本软件不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器
 
 * [凉腕播放器（凉腕官方已不再积极维护，可能无法访问）](https://github.com/Lscyzq/com.aliangmaker.media/releases) （手表）
- > 本软件由凉生初霜开发。不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的免费视频播放器。
+
+> 本软件由凉生初霜开发。不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的免费视频播放器。
 
 ## Rare计划官方归档应用
 
 **警告：本分类应用均已归档，可能是因为其中某个或某些功能无法正常使用/异常而放弃维护。如果您坚持使用归档应用，产生的所有后果自负。**
 
 * [RareClean详情页](/rareclean/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+
   > 清理手表运行内存。现已废弃，仅供存档。
-
+  >
 * [Rare翻译详情页](/rarefanyi/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
-  > 手表上简单快速的翻译软件。现已废弃，仅供存档。
 
+  > 手表上简单快速的翻译软件。现已废弃，仅供存档。
+  >
 * [Rare商店详情页](/rareshop/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+
   > 手表上下载应用的应用商店，支持WearOS安装。仍可使用，服务器未关停。
+  >
 
 ## 捐助
 
