@@ -1,19 +1,26 @@
 {% if include.name %}
 {% if page_agreement_checkbox == nil %}
 {% assign page_agreement_checkbox = true %}
-  <label class="mdui-checkbox">
-    <input id="agreement1" type="checkbox" onchange="localStorage.setItem('myCat', 'Tom');"/>
-    <i class="mdui-checkbox-icon"></i>
-    我已阅读，完全理解并同意该应用的用户协议、隐私政策、免责声明以及该网站的<a href="/eula/">最终用户许可协议</a>和<a href="/privacy/">隐私条款</a>
-  </label>
+<label class="mdui-checkbox" style="margin-bottom:12px;display:flex;align-items:flex-start;gap:6px">
+  <input id="agreement1" type="checkbox" onchange="localStorage.setItem('myCat', 'Tom');"/>
+  <i class="mdui-checkbox-icon"></i>
+  <span style="font-size:13px;line-height:1.5">我已阅读，完全理解并同意该应用的用户协议、隐私政策、免责声明以及该网站的<a href="/eula/">最终用户许可协议</a>和<a href="/privacy/">隐私条款</a></span>
+</label>
 {% endif %}
 {% for appk in site.data.apps %}
 {% assign app = appk[1] %}
 {% if include.name == app.name %}
 
-  <div class="mdui-panel" mdui-panel>
+  <div class="mdui-panel" mdui>
     {% for ver in app.list %}
-  <div class="mdui-panel-item">
+    {% if forloop.first %}
+    <div class="product-version-latest">
+      <i class="material-icons">new_releases</i>
+      <span>最新版本：{{ ver.ver }}</span>
+      {% if ver.date %}<span style="margin-left:8px;opacity:0.7;font-weight:400;font-size:12px">{{ ver.date }}</span>{% endif %}
+    </div>
+    {% endif %}
+  <div class="mdui-panel-item{% if forloop.first %} mdui-panel-item-open{% endif %}">
         <div class="mdui-panel-item-header">
             <div class="mdui-panel-item-title">{{ ver.ver }}</div>
             <div class="mdui-panel-item-summary">{{ ver.date }}</div>
@@ -21,16 +28,15 @@
         </div>
         
 <div class="mdui-panel-item-body">
-        <h5>详情:</h5>
-        <pre>{{ ver.content | markdownify }}</pre>
-        <b>本版本发布于：{{ ver.date }}</b>
+        <h5 style="margin:0 0 8px;font-size:13px;color:var(--text-secondary)">更新内容</h5>
+        <div style="font-size:13px;line-height:1.6">{{ ver.content | markdownify }}</div>
         {% if ver.download == nil %}
-          <p>无下载链接。</p>
+          <p style="color:var(--text-secondary);font-size:13px">无下载链接。</p>
         {% else %}
-          <p>注意：下载后即意味着你已阅读，完全理解并同意本页面政策（如果有）、免责声明（如果有）和隐私条款。</p>
+          <p style="font-size:12px;color:var(--text-secondary);margin:12px 0 8px">下载后即意味着你已阅读，完全理解并同意本页面政策、免责声明和隐私条款。</p>
           <div class="mdui-list">
             {% for verd in ver.download %}
-                  <a class="mdui-list-item mdui-ripple download-require-agreement" onclick="if($('#agreement1').prop('checked'))return true;event.preventDefault();mdui.snackbar('请先勾选下载列表上方复选框同意相关内容。');$('html, body').animate({scrollTop: $('#agreement1').offset().top}, 800);return false;" href="{{ verd.url }}"><i class="mdui-icon material-icons">file_download</i>{{ verd.name }}</a>
+                  <a class="mdui-list-item mdui-ripple download-require-agreement" style="border-radius:6px;margin-bottom:4px;font-weight:600" onclick="if($('#agreement1').prop('checked'))return true;event.preventDefault();mdui.snackbar('请先勾选下载列表上方复选框同意相关内容。');$('html, body').animate({scrollTop: $('#agreement1').offset().top}, 800);return false;" href="{{ verd.url }}"><i class="mdui-icon material-icons">file_download</i>{{ verd.name }}</a>
             {% endfor %}
           </div>
         {% endif %}
@@ -38,7 +44,7 @@
         {% else %}
           <div class="mdui-list">
           {% for verd in ver.links %}
-                <a class="mdui-list-item mdui-ripple" href="{{ verd.url }}">{{ verd.name }}</a>
+                <a class="mdui-list-item mdui-ripple" style="border-radius:6px;margin-bottom:4px" href="{{ verd.url }}">{{ verd.name }}</a>
           {% endfor %}
           </div>
         {% endif %}
