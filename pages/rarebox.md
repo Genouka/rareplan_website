@@ -278,12 +278,14 @@ RareBox 手表工具箱 —— 全部功能清单
 
 <div class="product-table-wrapper">
 
+
 | 连接方式 | 说明 | 要求 |
 |----------|------|------|
 | 新ADB方案（推荐） | TLS加密连接，支持无线配对 | Android 11+ |
 | 旧ADB方案 | 传统RSA认证连接 | 兼容所有Android版本 |
 | OTG模式 | USB OTG线直接连接 | 本机支持USB Host |
 | 免配对连接 | 利用系统漏洞绕过配对认证 | 特定场景 |
+
 
 </div>
 
@@ -293,6 +295,7 @@ RareBox 手表工具箱 —— 全部功能清单
 
 <div class="product-table-wrapper">
 
+
 | 后端 | 说明 | 要求 |
 |------|------|------|
 | ADB | 通过网络连接远程设备执行命令 | 需先建立ADB连接 |
@@ -301,6 +304,7 @@ RareBox 手表工具箱 —— 全部功能清单
 | Root | 通过Root权限执行命令 | 设备需已Root |
 | Zygote漏洞 | 利用CVE-2024-31317漏洞提权执行 | 需Shizuku/Dhizuku/Root作为前置 |
 | WriteSecure | 修改系统安全设置 | 需通过其他后端授权 |
+
 
 </div>
 

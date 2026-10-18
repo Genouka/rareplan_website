@@ -11,7 +11,7 @@
 {% assign app = appk[1] %}
 {% if include.name == app.name %}
 
-  <div class="mdui-panel" mdui>
+  <div class="mdui-panel" mdui-panel>
     {% for ver in app.list %}
     {% if forloop.first %}
     <div class="product-version-latest">
