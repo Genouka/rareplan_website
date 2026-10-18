@@ -14,7 +14,7 @@ permalink: /rarebrowser/
 <li class="product-badge"><i class="material-icons">tab</i> 多标签页</li>
 </ul>
 <div class="product-cta-row">
-<a href="#下载" class="product-cta" style="background:linear-gradient(135deg,#283593,#3949ab)"><i class="material-icons">download</i> 下载免费版</a>
+<a href="#下载" class="product-cta" style="background:linear-gradient(135deg,#283593,#3949ab)"><i class="material-icons">file_download</i> 下载免费版</a>
 <a href="/lianxi/" class="product-cta product-cta-secondary"><i class="material-icons">shopping_cart</i> 获取Pro版</a>
 </div>
 </div>
@@ -111,7 +111,7 @@ permalink: /rarebrowser/
 
 ## 多渲染内核架构
 
-<div class="product-table-wrapper">
+<div class="product-table-wrapper" markdown="1">
 
 | 内核 | 说明 |
 |------|------|
@@ -138,7 +138,7 @@ permalink: /rarebrowser/
 
 ## 版本说明
 
-<div class="product-table-wrapper">
+<div class="product-table-wrapper" markdown="1">
 
 | 系列 | 状态 | 说明 |
 |------|------|------|

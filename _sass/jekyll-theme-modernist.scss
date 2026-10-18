@@ -551,6 +551,9 @@ footer {
   --product-version-latest-bg: #e8f5e9;
   --product-version-latest-border: #a5d6a7;
   --product-version-latest-text: #2e7d32;
+  --product-panel-item-bg: #ffffff;
+  --product-panel-item-border: rgba(0, 0, 0, 0.12);
+  --product-panel-item-hover: rgba(0, 0, 0, 0.06);
 }
 
 [data-theme="dark"] {
@@ -577,6 +580,9 @@ footer {
   --product-version-latest-bg: rgba(46,125,50,0.15);
   --product-version-latest-border: #2e7d32;
   --product-version-latest-text: #66bb6a;
+  --product-panel-item-bg: #23262e;
+  --product-panel-item-border: rgba(255, 255, 255, 0.12);
+  --product-panel-item-hover: rgba(255, 255, 255, 0.08);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -604,6 +610,9 @@ footer {
     --product-version-latest-bg: rgba(46,125,50,0.15);
     --product-version-latest-border: #2e7d32;
     --product-version-latest-text: #66bb6a;
+    --product-panel-item-bg: #23262e;
+    --product-panel-item-border: rgba(255, 255, 255, 0.12);
+    --product-panel-item-hover: rgba(255, 255, 255, 0.08);
   }
 }
 
@@ -719,6 +728,15 @@ footer {
 .product-cta-secondary:hover {
   background: rgba(255,255,255,0.25);
   box-shadow: none;
+  color: var(--product-badge-text);
+}
+
+/* 提高优先级，避免 mdui 的链接颜色（.mdui-theme-accent-blue .mdui-typo a）覆盖按钮文字颜色 */
+.product-hero .product-cta-row a.product-cta {
+  color: var(--product-cta-text);
+}
+
+.product-hero .product-cta-row a.product-cta.product-cta-secondary {
   color: var(--product-badge-text);
 }
 
@@ -841,6 +859,23 @@ footer {
 .product-download-section h2 {
   margin: 0 0 12px;
   font-size: 20px;
+}
+
+/* 让 mdui 面板/列表跟随站点深浅色主题（mdui 默认面板是白底深色文字） */
+.product-download-section .mdui-panel-item {
+  background-color: var(--product-panel-item-bg);
+  color: var(--text-primary);
+  border-bottom-color: var(--product-panel-item-border);
+}
+
+.product-download-section .mdui-panel-item-summary,
+.product-download-section .mdui-panel-item-arrow {
+  color: var(--text-secondary);
+}
+
+.product-download-section .mdui-panel-item-header:active,
+.product-download-section .mdui-list-item:hover {
+  background-color: var(--product-panel-item-hover);
 }
 
 .product-version-latest {

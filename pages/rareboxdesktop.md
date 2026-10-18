@@ -9,11 +9,11 @@ permalink: /rareboxdesktop/
 <p class="product-tagline">RareBox 的电脑端版本<br/>在 Windows 上通过 ADB 管理你的手表和手机</p>
 <ul class="product-badges">
 <li class="product-badge"><i class="material-icons">computer</i> Windows</li>
-<li class="product-badge"><i class="material-icons">verified</i> 免费使用</li>
+<li class="product-badge"><i class="material-icons">check_circle</i> 免费使用</li>
 <li class="product-badge"><i class="material-icons">phone_android</i> <a href="/rarebox/" style="color:inherit;text-decoration:none">手机版可用</a></li>
 </ul>
 <div class="product-cta-row">
-<a href="#下载" class="product-cta" style="background:linear-gradient(135deg,#00695c,#00796b)"><i class="material-icons">download</i> 立即下载</a>
+<a href="#下载" class="product-cta" style="background:linear-gradient(135deg,#00695c,#00796b)"><i class="material-icons">file_download</i> 立即下载</a>
 </div>
 </div>
 </div>

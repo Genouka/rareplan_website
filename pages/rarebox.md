@@ -8,13 +8,13 @@ permalink: /rarebox/
 <h1>RareBox</h1>
 <p class="product-tagline">面向 Android 设备和 Wear OS 智能手表的强大 ADB 工具箱<br/>无需电脑，轻松管理你的设备</p>
 <ul class="product-badges">
-<li class="product-badge"><i class="material-icons">verified</i> 免费开源</li>
+<li class="product-badge"><i class="material-icons">check_circle</i> 免费开源</li>
 <li class="product-badge"><i class="material-icons">phone_android</i> 手机/手表</li>
 <li class="product-badge"><i class="material-icons">computer</i> <a href="/rareboxdesktop/" style="color:inherit;text-decoration:none">电脑版可用</a></li>
 <li class="product-badge"><i class="material-icons">security</i> 多种连接方式</li>
 </ul>
 <div class="product-cta-row">
-<a href="#下载" class="product-cta"><i class="material-icons">download</i> 立即下载</a>
+<a href="#下载" class="product-cta"><i class="material-icons">file_download</i> 立即下载</a>
 <a href="/rareboxproblem/" class="product-cta product-cta-secondary"><i class="material-icons">help_outline</i> 常见问题</a>
 </div>
 </div>
@@ -68,7 +68,7 @@ permalink: /rarebox/
 </div>
 
 <div class="product-feature-card">
-<div class="feature-icon"><i class="material-icons">terminal</i></div>
+<div class="feature-icon"><i class="material-icons">code</i></div>
 <h4>ADB 终端</h4>
 <p>完整的 ADB Shell 命令行终端，支持命令历史记录、Ctrl+C 中断、粘贴和换行输入</p>
 </div>
@@ -276,7 +276,7 @@ RareBox 手表工具箱 —— 全部功能清单
 
 ## 连接方式
 
-<div class="product-table-wrapper">
+<div class="product-table-wrapper" markdown="1">
 
 
 | 连接方式 | 说明 | 要求 |
@@ -293,7 +293,7 @@ RareBox 手表工具箱 —— 全部功能清单
 
 ## 命令后端
 
-<div class="product-table-wrapper">
+<div class="product-table-wrapper" markdown="1">
 
 
 | 后端 | 说明 | 要求 |
