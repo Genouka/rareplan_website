@@ -15,14 +15,14 @@ list:
        5.x系列为当前开发版本，可能存在不稳定现象。
     links:
        - name: 购买链接
-         url: https://verity.genouka.top/info/
+         url: https://rareverity.qiumingsanyu.top/info/
   - ver: 4.7.4 (Pro版)
     content: |
        - 4.7.3版本中存在的无法验证相关的关键错误修复
        - 4.x系列最后修复版本
     links:
        - name: 购买链接
-         url: https://verity.genouka.top/info/
+         url: https://rareverity.qiumingsanyu.top/info/
   - ver: 3.5.4
     content: |
        - 已知错误修复
@@ -35,7 +35,7 @@ list:
        后续版本将不再提供免费下载
     links:
        - name: 购买链接
-         url: https://verity.genouka.top/info/
+         url: https://rareverity.qiumingsanyu.top/info/
   - ver: 2.9.1.2
     date: 2024-5-30
     content: |

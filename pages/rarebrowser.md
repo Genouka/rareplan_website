@@ -15,7 +15,7 @@ permalink: /rarebrowser/
 </ul>
 <div class="product-cta-row">
 <a href="#下载" class="product-cta" style="background:linear-gradient(135deg,#283593,#3949ab)"><i class="material-icons">file_download</i> 下载免费版</a>
-<a href="/lianxi/" class="product-cta product-cta-secondary"><i class="material-icons">shopping_cart</i> 获取Pro版</a>
+<a href="https://rareverity.qiumingsanyu.top/info/" class="product-cta product-cta-secondary"><i class="material-icons">shopping_cart</i> 获取Pro版</a>
 </div>
 </div>
 </div>
@@ -40,7 +40,7 @@ permalink: /rarebrowser/
 </div>
 
 <div class="product-info-box" style="background:var(--product-highlight-bg);border-color:var(--product-highlight-border)">
-<p style="margin:0;color:var(--product-highlight-text);font-weight:600"><i class="material-icons" style="font-size:16px;vertical-align:middle;margin-right:4px">info</i> 本页面介绍和发布的是 Rare浏览器免费版。本网站不发布 Rare浏览器收费版（RarePro浏览器）。关于收费版请<a href="/lianxi/" style="color:var(--product-highlight-text);text-decoration:underline">联系开发者</a>。</p>
+<p style="margin:0;color:var(--product-highlight-text);font-weight:600"><i class="material-icons" style="font-size:16px;vertical-align:middle;margin-right:4px">info</i> 本页面介绍和发布的是 Rare浏览器免费版。本网站不发布 Rare浏览器收费版（RarePro浏览器）。关于收费版请<a href="https://rareverity.qiumingsanyu.top/info/" style="color:var(--product-highlight-text);text-decoration:underline">访问本页面</a>。</p>
 </div>
 
 ## 核心功能
