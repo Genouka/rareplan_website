@@ -5,7 +5,9 @@ list:
         更新海量内容
     date: 2026-10-18
     download:
-      - name: 官方源
+      - name: 官方源(夸克网盘)
+        url: https://pan.quark.cn/s/1b68c4200db6
+      - name: 官方源(Github)
         url: https://github.com/Genouka/RareBox/releases/download/4.0.0/RareBox.4.0.0.APK
       - name: 微思应用商店
         url: https://apk.wysteam.cn/app/?id=2768
