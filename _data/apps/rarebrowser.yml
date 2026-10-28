@@ -41,8 +41,8 @@ list:
     content: |
        修复大批bug
     download:
-       - name: 官方源
-         url: https://ardrive.net/td8Sdff4AD0jMsr8-QS82kK6blubzpmGVG4GamUbuFU
+       - name: 官方源(夸克网盘)
+         url: https://pan.quark.cn/s/31346f65abc2
   - ver: 2.9.0
     content: |
        特供版专用于华为儿童手表，无需重新签名。
