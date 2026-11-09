@@ -1,6 +1,11 @@
 name: rareboxdesktop
 list:
-  - ver: 0.5.1
+  - var: Next 0.2.0
+    date: 2026-11-09
+    download:
+       - name: 下载
+         url: ttps://pan.quark.cn/s/dc5bd32132ab
+  - ver: 旧版 0.5.1
     content: |
         公测版本
     date: 2024-08-14
