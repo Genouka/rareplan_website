@@ -15,7 +15,7 @@ description: 手表基础设施建设先行者
 
 ---
 
-**本网站最后更新于2026年10月18日。**
+**本网站最后更新于2026年11月09日。**
 
 **☀️ 打造手表系列，共建手表生态！☀️**
 
@@ -27,10 +27,11 @@ description: 手表基础设施建设先行者
 
 ## Rare计划系列软件（官方）
 
-* [RareBox(手机版/手表版)详情页](/rarebox/) [RareBox(电脑版)详情页](/rareboxdesktop/)
+* [RareBox Next详情页](/rareboxdesktop/))
 
-  > 免费开源的ADB工具箱，支持安装应用、文件管理、应用管理、远程屏幕控制等多种功能，集成Shizuku/Dhizuku/Root等多种命令后端。
-  >
+  > <span class="text-success">免费开源，全新升级，支持所有平台！</span>
+  > 
+  > 旧版本：[RareBox(手机版/手表版)详情页](/rarebox/) [RareBox(电脑版)详情页](/rareboxdesktop/)
 * [Rare浏览器详情页](/rarebrowser/)
 
   > 手表上功能全面的浏览器，支持6种渲染内核切换、多标签页浏览、油猴脚本、广告拦截等。
