@@ -31,7 +31,7 @@ description: 手表基础设施建设先行者
 
   > <span class="text-success">免费开源，全新升级，支持所有平台！</span>
   > 
-  > 旧版本：[RareBox(手机版/手表版)详情页](/rarebox/) [RareBox(电脑版)详情页](/rareboxdesktop/)
+  > [旧版本：[RareBox(手机版/手表版)详情页](/rarebox/) [RareBox(电脑版)详情页](/rareboxdesktop/)
 * [Rare浏览器详情页](/rarebrowser/)
 
   > 手表上功能全面的浏览器，支持6种渲染内核切换、多标签页浏览、油猴脚本、广告拦截等。
