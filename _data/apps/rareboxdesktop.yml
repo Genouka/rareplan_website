@@ -4,7 +4,7 @@ list:
     date: 2026-11-09
     download:
        - name: 下载
-         url: ttps://pan.quark.cn/s/dc5bd32132ab
+         url: https://pan.quark.cn/s/dc5bd32132ab
   - ver: 旧版 0.5.1
     content: |
         公测版本
